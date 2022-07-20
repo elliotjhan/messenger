@@ -7,14 +7,11 @@ import * as EmailValidator from 'email-validator';
 import { auth } from '../firebase';
 
 const Sidebar = () => {
-
   const createChat = () => {
     const input = prompt(
       "Please enter an email address for the user you wish to chat with"
     );
-
     if(!input) return null;
-
       if(EmailValidator.validate(input)) {
         // we need to add the chat into the db
 
@@ -39,7 +36,6 @@ const Sidebar = () => {
         <SearchInput placeholder='Search'/>
       </Search>
       <SidebarButton onClick={createChat}>Start a new chat</SidebarButton>
-
       {/* List of Chats */}
     </Container>
   )
@@ -86,5 +82,5 @@ const UserAvatar = styled(Avatar)`
   }
 `;
 const IconsContainer = styled.div`
-  
+
 `;

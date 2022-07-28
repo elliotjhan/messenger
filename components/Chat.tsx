@@ -23,6 +23,7 @@ const Container = styled.div`
     background-color: #e9eaeb;
   }
 `;
+
 const UserAvatar = styled(Avatar)`
   margin: 5px;
   margin-right: 15px;

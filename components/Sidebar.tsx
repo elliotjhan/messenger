@@ -66,7 +66,7 @@ const Sidebar = () => {
 export default Sidebar;
 
 const Container = styled.div`
-  width: 25%;
+  width: 400px;
 `;
 const Search = styled.div`
   display: flex;

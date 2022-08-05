@@ -16,7 +16,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 15px;
+  padding: 20px;
   word-break: break-word;
 
   :hover {
